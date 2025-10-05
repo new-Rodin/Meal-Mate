@@ -1,0 +1,55 @@
+/* src/components/SearchBar/SearchBar.css */
+/* Styles for the search bar and checkboxes */
+.search-form {
+    background: #f9d1d6;;
+    font-family: 'Lato';
+    color: #212121;
+    font-weight: 400;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.search-input {
+    width: 90%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 14px;
+    box-shadow: 2px 2px 4px rgb(0,0,0,0.1);
+    border: 1px solid #f2f3f7;
+    margin-bottom: 1rem;
+}
+.search-input:focus{
+    outline: none;
+    border: 1px solid #433838;
+}
+
+.ingredient-filters {
+    margin-bottom: 1rem;
+}
+
+.ingredient-filters p {
+    margin: 0 0 10px;
+    font-weight: 400;
+}
+
+.ingredient-label {
+    margin-right: 15px;
+    cursor: pointer;
+}
+.ingredient-label:hover{
+    color:#e11932;
+}
+.search-button {
+    padding: 10px 20px;
+    background-color: #e11932;
+    font-family: 'Lato';
+    color: white;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.search-button:hover{
+    background-color: #f2f3f7;
+    color: #e11932;
+}

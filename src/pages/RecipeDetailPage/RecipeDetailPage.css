@@ -1,0 +1,61 @@
+/* src/pages/RecipeDetailPage/RecipeDetailPage.css */
+.recipe-detail-page {
+    max-width: 900px;
+    color: #212121;
+    margin: auto;
+    padding: 2rem;
+}
+
+.detail-title {
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+
+.detail-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.detail-content {
+    display: flex;
+    flex-flow: column wrap;
+    font-family: 'Lato';
+    font-weight: 400;
+    gap: 2rem;
+}
+
+
+
+.ingredients-section,
+.instructions-section,
+.nutrition-section,.Recipe-Summary {
+    flex: 1;
+    background-color: #f9d1d6;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #0000001a;
+    text-align: left;
+}
+.detail-content h2{
+    text-align: center;
+    margin-top: 0px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: #e11932;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+.instructions-section div,.nutrition-section p,.Recipe-Summary p {
+    padding: 0px 20px 20px 20px;
+}
+
+@media (max-width: 768px) {
+
+    /* Responsive Design [cite: 28, 35] */
+    .detail-content {
+        flex-direction: column;
+    }
+}
