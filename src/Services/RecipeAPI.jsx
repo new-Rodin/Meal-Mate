@@ -32,7 +32,7 @@ export const getSummary = async (id) => {
             throw new Error('Network response was not ok');
         }
         const data = await response.json();
-        return data.recipes; // The random endpoint returns an object with a 'recipes' array
+        return data.summary; // The random endpoint returns an object with summary of the recipe
     } catch (error) {
         console.error("Failed to fetch Summary:", error);
         return [];
